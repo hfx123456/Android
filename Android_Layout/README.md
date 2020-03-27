@@ -226,92 +226,136 @@ constraintlayout.xml
         xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@color/colorRed"
-        android:gravity="center"
-        android:text="Red"
-        android:textColor="@color/colorBlack"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorRed"
+            android:gravity="center"
+            android:text="@string/red"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@android:color/holo_orange_dark"
-        android:gravity="center"
-        android:text="ORANGE"
-        android:textColor="@color/colorBlack"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:text="@string/orange"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:background="@color/colorYellow"
-        android:gravity="center"
-        android:text="YELLOW"
-        android:textColor="@color/colorBlack"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/colorYellow"
+            android:gravity="center"
+            android:text="@string/yellow"
+            android:textColor="@color/colorBlack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
     
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/textView4"
-        android:text="BLUE"
-        android:textColor="@color/colorBlack"
-        android:gravity="center"
-        android:background="@android:color/holo_blue_light"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        />
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/textView5"
-        android:text="GREEN"
-        android:textColor="@color/colorBlack"
-        android:gravity="center"
-        android:background="@color/colorGreen"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/textView4"
-        android:layout_marginEnd="20dp"
-        android:layout_marginStart="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        />
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:id="@+id/textView6"
-        android:text="INDIGO"
-        android:textColor="@color/colorBlack"
-        android:gravity="center"
-        android:background="@color/colorBlue"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintStart_toEndOf="@id/textView4"
-        android:layout_marginEnd="20dp"
-        android:layout_marginStart="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/textView4"
+            android:text="@string/blue"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:background="@android:color/holo_blue_light"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/textView5"
+            android:text="@string/green"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:background="@color/colorGreen"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/textView4"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/textView6"
+            android:text="@string/indigo"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:background="@color/colorBlue"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/textView4"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"/>
     
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:text="VIOLET"
-        android:textColor="@color/colorBlack"
-        android:background="@color/colorViolet"
-        android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        />
-        </androidx.constraintlayout.widget.ConstraintLayout>
-colors.xml和string.xml和上面的差不多 ，这里就不贴代码了
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="@string/violet"
+            android:textColor="@color/colorBlack"
+            android:background="@color/colorViolet"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+colors.xml
+
+```
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+​```
+<color name="colorPrimary">#6200EE</color>
+<color name="colorPrimaryDark">#3700B3</color>
+<color name="colorAccent">#03DAC5</color>
+<color name="colorBlack">#000000</color>
+<color name="colorRed">#E80C0C</color>
+<color name="colorYellow">#ECDB6F</color>
+<color name="colorGreen">#90EC6F</color>
+<color name="colorBlue">#6F7CEC</color>
+<color name="colorViolet">#D316A4</color>
+
+
+</resources>
+```
+
+string.xml
+
+```
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="to" />
+    <string name="subject" />
+    <string name="message" />
+    <string name="red">Red</string>
+    <string name="orange">ORANGE</string>
+    <string name="yellow">YELLOW</string>
+    <string name="blue">BLUE</string>
+    <string name="green">GREEN</string>
+    <string name="indigo">INDIGO</string>
+    <string name="violet">VIOLET</string>
+
+</resources>
+```
+
+**实验截图**：
+
+预览图
+
+![1585301597536](../image/20.png)
 
 **实验结果：**
 
@@ -497,6 +541,7 @@ string.xml
     </resources>
 ids.xml
 
+```
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <item name="text33" type="id" />
@@ -504,8 +549,15 @@ ids.xml
     <item name="text42" type="id" />
     <item name="line" type="id"/>
 </resources>
+```
 
-实验结果：
+**实验截图**:
+
+预览图
+
+![1585301504498](../image/22.png)
+
+**实验结果：**
 
 
 
