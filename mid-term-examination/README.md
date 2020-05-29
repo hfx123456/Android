@@ -296,7 +296,7 @@ public class NoteSearch extends ListActivity implements SearchView.OnQueryTextLi
 
 实验结果：
 
-![image-20200529140327785](C:/Users/11839/AppData/Roaming/Typora/typora-user-images/image-20200529140327785.png)![](../image/image13.png)
+![](../image/image13.png)
 
 ![image-20200529140355309](../image/image14.png)
 
