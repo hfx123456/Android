@@ -8,3 +8,6 @@
 
 实验3：**[实验3](https://github.com/hfx123456/Android/tree/master/Android_UI)**
 
+实验4：**[实验4](https://github.com/hfx123456/Android/tree/master/Android_intent)**
+
+期中  ：**[期中]([https://github.com/hfx123456/Android/tree/master/mid-term%20examination](https://github.com/hfx123456/Android/tree/master/mid-term examination))**
