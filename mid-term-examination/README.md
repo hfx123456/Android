@@ -203,6 +203,49 @@ public boolean onQueryTextSubmit(String query) {
 }
 ```
 
+```
+
+<!--添加搜索activity-->
+<activity
+    android:name=".NoteSearch"
+    android:label="NoteSearch"
+    >
+
+    <intent-filter>
+        <action android:name="android.intent.action.NoteSearch" />
+        <action android:name="android.intent.action.SEARCH" />
+        <action android:name="android.intent.action.SEARCH_LONG_PRESS" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="vnd.android.cursor.dir/vnd.google.note" />
+        <!--1.vnd.android.cursor.dir代表返回结果为多列数据-->
+        <!--2.vnd.android.cursor.item 代表返回结果为单列数据-->
+    </intent-filter>
+</activity>
+```
+
+最后注册notesearch
+
+```
+<!--添加搜索activity-->
+<activity
+    android:name=".NoteSearch"
+    android:label="NoteSearch"
+    >
+
+    <intent-filter>
+        <action android:name="android.intent.action.NoteSearch" />
+        <action android:name="android.intent.action.SEARCH" />
+        <action android:name="android.intent.action.SEARCH_LONG_PRESS" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <data android:mimeType="vnd.android.cursor.dir/vnd.google.note" />
+        <!--1.vnd.android.cursor.dir代表返回结果为多列数据-->
+        <!--2.vnd.android.cursor.item 代表返回结果为单列数据-->
+    </intent-filter>
+</activity>
+```
+
+
+
 完整代码
 
 ```
